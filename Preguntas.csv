@@ -1,0 +1,10 @@
+BASIC_COMMANDS;con que comando se listan los archivos?
+BASIC_COMMANDS;con que comando se listan los archivos incluyendo ocultos?
+BASIC_COMMANDS;con que comando se listan los procesos?
+BASIC_COMMANDS;con que comando se cambian los permisos de un archivo o directorio?
+BASIC_COMMANDS;con que comando se crea un archivo?
+DOCKERS;Con que comando se ven las images de docker?
+BASIC_COMMANDS;con que comando se listan los archivos?
+DOCKERS;Con que comando se corren los contenedores?
+BASIC_COMMANDS;con que comando se listan los archivos?
+DOCKERS;cual es el comando para exponer multiples puertos en un contenedor?
