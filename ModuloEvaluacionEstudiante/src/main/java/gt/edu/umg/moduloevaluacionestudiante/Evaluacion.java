@@ -137,6 +137,7 @@ public class Evaluacion {
      */
     public void busquedaDeIndices(String categoria) {
         try {
+            indices.clear();
             String texto = "";
             int numero = 0;
             FileReader archivoPreguntas = new FileReader(rutaPreguntas);
@@ -174,7 +175,6 @@ public class Evaluacion {
             Integer randomInt = indices.get(rand.nextInt(indices.size()));
             indicesAleatorios.put(randomInt, randomInt);
         }
-
         for (Map.Entry<Integer, Integer> elemento : indicesAleatorios.entrySet()) {
 
             llenadoDePreguntas(elemento, categoria);
